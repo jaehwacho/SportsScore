@@ -60,11 +60,14 @@ function AppContent() {
   if (error) return <div className="error">오류: {error}</div>
   if (!tournamentIndex || !data) return <div className="loading">데이터 로딩 중…</div>
 
+  const currentTournament = tournamentIndex.tournaments.find(t => t.id === activeTournamentId)
+
   return (
     <>
       <ScrollToTop />
       <div className="app">
         <Navigation
+          currentTournament={currentTournament}
           tournamentIndex={tournamentIndex}
           activeTournamentId={activeTournamentId}
           onTournamentChange={handleTournamentChange}

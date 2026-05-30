@@ -13,7 +13,13 @@
       "Bash(vercel --prod --confirm)",
       "Bash(vercel --prod --yes)",
       "Bash(curl -s http://localhost:3001/)",
-      "Bash(git commit -m 'design: 화이트 테마 + 오렌지/코랄 포인트 컬러로 전체 디자인 리포팅 *)"
+      "Bash(git commit -m 'design: 화이트 테마 + 오렌지/코랄 포인트 컬러로 전체 디자인 리포팅 *)",
+      "Bash(git push *)",
+      "Bash(command -v gh)",
+      "Bash(python3 -c ' *)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(git commit -m 'feat: 멀티 대회 지원 추가 \\(단양 + 삼척\\) *)",
+      "Bash(git commit -m 'refactor: 대회 선택 UI 개선 *)"
     ]
   }
 }

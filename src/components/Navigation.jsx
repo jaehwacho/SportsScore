@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, useSearchParams } from 'react-router-dom'
 import Icon from './Icon'
 import { NAV } from '../lib/format'
 import './Navigation.css'
 
-export default function Navigation({ tournamentIndex, activeTournamentId, onTournamentChange }) {
+export default function Navigation({ currentTournament, tournamentIndex, activeTournamentId, onTournamentChange }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
-  const activeTournament = tournamentIndex?.tournaments.find(t => t.id === activeTournamentId)
-  const tournamentShortName = activeTournament?.name.split(' ').slice(-1)[0] || '대회'
+  const tournamentShortName = currentTournament?.name.split(' ').slice(-1)[0] || '대회'
 
   const handleTournamentSelect = (id) => {
     onTournamentChange(id)
@@ -17,9 +16,9 @@ export default function Navigation({ tournamentIndex, activeTournamentId, onTour
 
   return (
     <header className="topbar">
-      <Link to="/" className="brand">
+      <Link to={`/?t=${activeTournamentId}`} className="brand">
         <span className="ball" aria-hidden="true"></span>
-        <span>{tournamentShortName}<small>{activeTournament?.name.split(' ')[0]} {activeTournament?.division}</small></span>
+        <span>{tournamentShortName}<small>{currentTournament?.name.split(' ')[0]} {currentTournament?.division}</small></span>
       </Link>
 
       <div className="tournament-picker">
@@ -27,8 +26,9 @@ export default function Navigation({ tournamentIndex, activeTournamentId, onTour
           className="tournament-button"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           aria-label="대회 선택"
+          title={`현재: ${tournamentShortName}`}
         >
-          <span>{tournamentShortName}</span>
+          <span>대회 선택</span>
           <Icon name="arrow" size={16} />
         </button>
         {isDropdownOpen && (
@@ -49,7 +49,7 @@ export default function Navigation({ tournamentIndex, activeTournamentId, onTour
 
       <nav className="nav-menu">
         {NAV.map(n => (
-          <NavLink key={n.to} to={n.to} end={n.to === '/'}
+          <NavLink key={n.to} to={`${n.to}${activeTournamentId ? `?t=${activeTournamentId}` : ''}`} end={n.to === '/'}
             className={({ isActive }) => 'nav-item' + (isActive ? ' active' : '')}>
             {n.label}
           </NavLink>
@@ -60,10 +60,13 @@ export default function Navigation({ tournamentIndex, activeTournamentId, onTour
 }
 
 export function TabBar() {
+  const [searchParams] = useSearchParams()
+  const activeTournamentId = searchParams.get('t')
+
   return (
     <nav className="tabbar">
       {NAV.map(n => (
-        <NavLink key={n.to} to={n.to} end={n.to === '/'}
+        <NavLink key={n.to} to={`${n.to}${activeTournamentId ? `?t=${activeTournamentId}` : ''}`} end={n.to === '/'}
           className={({ isActive }) => 'tab' + (isActive ? ' active' : '')}>
           <span className="ic"><Icon name={n.icon} size={20} /></span>
           {n.label}
