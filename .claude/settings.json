@@ -8,7 +8,12 @@
       "Bash(git init *)",
       "Bash(git config *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'Initial commit: SportsScore 배구 대회 결과 웹사이트 *)"
+      "Bash(git commit -m 'Initial commit: SportsScore 배구 대회 결과 웹사이트 *)",
+      "Bash(gh repo *)",
+      "Bash(vercel --prod --confirm)",
+      "Bash(vercel --prod --yes)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(git commit -m 'design: 화이트 테마 + 오렌지/코랄 포인트 컬러로 전체 디자인 리포팅 *)"
     ]
   }
 }
