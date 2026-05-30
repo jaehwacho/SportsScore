@@ -19,7 +19,9 @@
       "Bash(python3 -c ' *)",
       "Bash(pkill -f \"vite\")",
       "Bash(git commit -m 'feat: 멀티 대회 지원 추가 \\(단양 + 삼척\\) *)",
-      "Bash(git commit -m 'refactor: 대회 선택 UI 개선 *)"
+      "Bash(git commit -m 'refactor: 대회 선택 UI 개선 *)",
+      "Bash(awk '{print $NF}')",
+      "Bash(git commit -m 'docs: README 업데이트 및 프로젝트 파일 정리 *)"
     ]
   }
 }
