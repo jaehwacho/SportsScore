@@ -18,27 +18,41 @@ function BracketBox({ m, onClick }) {
   )
 }
 
+const ROUND_CONFIG = {
+  '6강': { head: '6강 · QUARTER', short: 'Quarter' },
+  '4강': { head: '4강 · SEMIFINAL', short: 'Semi' },
+  '결승': { head: '결승 · FINAL', short: 'Final' },
+}
+const ROUND_ORDER = ['6강', '4강', '결승']
+
 export default function Bracket({ data }) {
   const navigate = useNavigate()
   const { matches, tournament } = data
-  const cols = [
-    { head: '6강 · QUARTER', list: matches.filter(m => m.round === '6강') },
-    { head: '4강 · SEMIFINAL', list: matches.filter(m => m.round === '4강') },
-    { head: '결승 · FINAL', list: matches.filter(m => m.round === '결승') },
-  ]
+
+  // 데이터에 실제로 있는 라운드만 추출
+  const availableRounds = ROUND_ORDER.filter(round =>
+    matches.some(m => m.round === round)
+  )
+
+  // 동적으로 컬럼 생성
+  const cols = availableRounds.map(round => ({
+    round,
+    head: ROUND_CONFIG[round].head,
+    list: matches.filter(m => m.round === round),
+  }))
 
   return (
     <div className="page fade-up">
       <div className="page-head">
         <div className="eyebrow">Tournament Bracket</div>
         <h1 className="page-title">대진표</h1>
-        <p className="page-sub">6강부터 결승까지 · 본선 토너먼트</p>
+        <p className="page-sub">{availableRounds.join(' → ')} · 본선 토너먼트</p>
       </div>
 
       <div className="bracket-wrap scroll-area">
         <div className="bracket">
-          {cols.map((c, i) => (
-            <div className="round-col" key={i}>
+          {cols.map((c) => (
+            <div className="round-col" key={c.round}>
               <div className="rc-head">{c.head}</div>
               <div className="matches">
                 {c.list.map(m => <BracketBox key={m.no} m={m} onClick={() => navigate('/schedule')} />)}
@@ -58,10 +72,12 @@ export default function Bracket({ data }) {
         </div>
       </div>
 
-      <div className="notice" style={{ marginTop: 28 }}>
-        <span className="ic"><Icon name="info" /></span>
-        <span>{tournament.round_note}</span>
-      </div>
+      {tournament.round_note && (
+        <div className="notice" style={{ marginTop: 28 }}>
+          <span className="ic"><Icon name="info" /></span>
+          <span>{tournament.round_note}</span>
+        </div>
+      )}
     </div>
   )
 }

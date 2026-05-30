@@ -1,0 +1,1045 @@
+{
+  "schema_version": "1.0",
+  "description": "한국중고배구 여고부 대회 통합 인덱스",
+  "data_notice": "한국중고배구연맹의 경기 데이터는 연맹의 자산으로, 연맹의 서면 허락 없이 복제·유통·가공·배포 등 일체 행위를 할 수 없습니다.",
+  "default_tournament": "samcheok_2026",
+  "tournaments": [
+    {
+      "id": "danyang_2026",
+      "name": "2026 춘계중고배구연맹전 단양대회",
+      "division": "여고부",
+      "date_start": "2026-03-13",
+      "date_end": "2026-03-19",
+      "team_count": 9,
+      "match_count": 14,
+      "champion": "선명여고",
+      "runner_up": "중앙여고",
+      "file": "danyang_2026_data.json"
+    },
+    {
+      "id": "samcheok_2026",
+      "name": "2026 한국중고배구 1차 연맹전 삼척대회",
+      "division": "여고부",
+      "date_start": "2026-04-07",
+      "date_end": "2026-04-13",
+      "team_count": 7,
+      "match_count": 12,
+      "champion": "천안청수고",
+      "runner_up": "경남여고",
+      "file": "samcheok_2026_data.json"
+    }
+  ],
+  "team_registry": [
+    {
+      "team_id": "team_cheonan",
+      "name": "천안청수고",
+      "aliases": [
+        "천안청수",
+        "천안청수고"
+      ]
+    },
+    {
+      "team_id": "team_gangneung",
+      "name": "강릉여고",
+      "aliases": [
+        "강릉여고"
+      ]
+    },
+    {
+      "team_id": "team_gwangju",
+      "name": "광주체고",
+      "aliases": [
+        "광주체고"
+      ]
+    },
+    {
+      "team_id": "team_jecheon",
+      "name": "제천여고",
+      "aliases": [
+        "제천여고"
+      ]
+    },
+    {
+      "team_id": "team_seonmyeong",
+      "name": "선명여고",
+      "aliases": [
+        "선명여고"
+      ]
+    },
+    {
+      "team_id": "team_jungang",
+      "name": "중앙여고",
+      "aliases": [
+        "중앙여고"
+      ]
+    },
+    {
+      "team_id": "team_ilsin",
+      "name": "일신여상",
+      "aliases": [
+        "일신여상"
+      ]
+    },
+    {
+      "team_id": "team_jeonju",
+      "name": "전주근영",
+      "aliases": [
+        "전주근영"
+      ]
+    },
+    {
+      "team_id": "team_sehwa",
+      "name": "세화여고",
+      "aliases": [
+        "세화여고"
+      ]
+    },
+    {
+      "team_id": "team_gyeongnam",
+      "name": "경남여고",
+      "aliases": [
+        "경남여고"
+      ]
+    },
+    {
+      "team_id": "team_hanbom",
+      "name": "한봄고",
+      "aliases": [
+        "한봄고"
+      ]
+    },
+    {
+      "team_id": "team_gyeongil",
+      "name": "경일고",
+      "aliases": [
+        "경일고"
+      ]
+    }
+  ],
+  "shared_teams": [
+    "강릉여고",
+    "광주체고",
+    "제천여고",
+    "천안청수고"
+  ],
+  "player_links": [
+    {
+      "player_id": "team_cheonan:김규연",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "김규연",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 14,
+          "name_raw": "김규연"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 14,
+          "name_raw": "김규연"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:김아중",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "김아중",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 1,
+          "name_raw": "김아중"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 1,
+          "name_raw": "김아중"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:김주솔",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "김주솔",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 7,
+          "name_raw": "김주솔"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 7,
+          "name_raw": "김주솔"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:김주원",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "김주원",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 2,
+          "name_raw": "김주원"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 2,
+          "name_raw": "김주원"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:박믿음",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "박믿음",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 6,
+          "name_raw": "박믿음"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 6,
+          "name_raw": "박믿음"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:박예영",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "박예영",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 12,
+          "name_raw": "박예영"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 12,
+          "name_raw": "박예영"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:송인지",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "송인지",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 9,
+          "name_raw": "송인지"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 9,
+          "name_raw": "송민지"
+        }
+      ],
+      "jersey_consistent": true,
+      "name_variants": [
+        "송민지",
+        "송인지"
+      ]
+    },
+    {
+      "player_id": "team_cheonan:여원",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "여원",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 13,
+          "name_raw": "여원"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 13,
+          "name_raw": "여원"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:유채은",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "유채은",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 3,
+          "name_raw": "유채은"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 3,
+          "name_raw": "유채은"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:이윤서",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "이윤서",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 17,
+          "name_raw": "이윤서"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 17,
+          "name_raw": "이윤서"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:이은재",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "이은재",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 10,
+          "name_raw": "이은재"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 10,
+          "name_raw": "이은재"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_cheonan:이효담",
+      "team_id": "team_cheonan",
+      "team_name": "천안청수고",
+      "name": "이효담",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "천안청수",
+          "jersey": 11,
+          "name_raw": "이효담"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "천안청수고",
+          "jersey": 11,
+          "name_raw": "이효담"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:김민서",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "김민서",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 15,
+          "name_raw": "김민서"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 15,
+          "name_raw": "김민서"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:김보람",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "김보람",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 18,
+          "name_raw": "김보람"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 18,
+          "name_raw": "김보람"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:안예서",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "안예서",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 9,
+          "name_raw": "안예서"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 9,
+          "name_raw": "안예서"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:이은경",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "이은경",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 7,
+          "name_raw": "이은경"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 7,
+          "name_raw": "이은경"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:전수연",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "전수연",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 6,
+          "name_raw": "전수연"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 6,
+          "name_raw": "전수연"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:전하진",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "전하진",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 8,
+          "name_raw": "전하진"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 8,
+          "name_raw": "전하진"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:정세경",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "정세경",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 13,
+          "name_raw": "정세경"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 13,
+          "name_raw": "정세경"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:최혜은",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "최혜은",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 11,
+          "name_raw": "최혜은"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 11,
+          "name_raw": "최혜은"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:홍다은",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "홍다은",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 10,
+          "name_raw": "홍다은"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 10,
+          "name_raw": "홍다은"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gangneung:홍예나",
+      "team_id": "team_gangneung",
+      "team_name": "강릉여고",
+      "name": "홍예나",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "강릉여고",
+          "jersey": 17,
+          "name_raw": "홍예나"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "강릉여고",
+          "jersey": 17,
+          "name_raw": "홍예나"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:강수인",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "강수인",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 8,
+          "name_raw": "강수인"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 8,
+          "name_raw": "강수인"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:곽보미",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "곽보미",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 3,
+          "name_raw": "곽보미"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 3,
+          "name_raw": "곽보미"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:김민선",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "김민선",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 4,
+          "name_raw": "김민선"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 4,
+          "name_raw": "김민선"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:김수빈",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "김수빈",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 10,
+          "name_raw": "김수빈"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 10,
+          "name_raw": "김수빈"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:김시연",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "김시연",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 2,
+          "name_raw": "김시연"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 2,
+          "name_raw": "김시연"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:김은수",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "김은수",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 15,
+          "name_raw": "김은수"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 15,
+          "name_raw": "김은수"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:박하랑",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "박하랑",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 19,
+          "name_raw": "박하랑"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 19,
+          "name_raw": "박하랑"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:서선영",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "서선영",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 11,
+          "name_raw": "서선영"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 11,
+          "name_raw": "서선영"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:양시후",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "양시후",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 9,
+          "name_raw": "양시후"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 9,
+          "name_raw": "양시후"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:유가연",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "유가연",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 5,
+          "name_raw": "유가연"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 5,
+          "name_raw": "유가연"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:이유진",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "이유진",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 17,
+          "name_raw": "이유진"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 17,
+          "name_raw": "이유진"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:홍다연",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "홍다연",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 7,
+          "name_raw": "홍다연"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 7,
+          "name_raw": "홍다연"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_gwangju:황유주",
+      "team_id": "team_gwangju",
+      "team_name": "광주체고",
+      "name": "황유주",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "광주체고",
+          "jersey": 6,
+          "name_raw": "황유주"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "광주체고",
+          "jersey": 6,
+          "name_raw": "황유주"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:박소진",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "박소진",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 12,
+          "name_raw": "박소진"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 12,
+          "name_raw": "박소진"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:백지민",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "백지민",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 5,
+          "name_raw": "백지민"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 5,
+          "name_raw": "백지민"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:봉하영",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "봉하영",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 4,
+          "name_raw": "봉하영"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 4,
+          "name_raw": "봉하영"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:윤가을",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "윤가을",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 2,
+          "name_raw": "윤가을"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 2,
+          "name_raw": "윤가을"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:이가영",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "이가영",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 11,
+          "name_raw": "이가영"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 11,
+          "name_raw": "이가영"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:이지우",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "이지우",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 9,
+          "name_raw": "이지우"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 9,
+          "name_raw": "이지우"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:조연주",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "조연주",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 1,
+          "name_raw": "조연주"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 1,
+          "name_raw": "조연주"
+        }
+      ],
+      "jersey_consistent": true
+    },
+    {
+      "player_id": "team_jecheon:조희주",
+      "team_id": "team_jecheon",
+      "team_name": "제천여고",
+      "name": "조희주",
+      "appearances": [
+        {
+          "tournament": "danyang_2026",
+          "team_name": "제천여고",
+          "jersey": 7,
+          "name_raw": "조희주"
+        },
+        {
+          "tournament": "samcheok_2026",
+          "team_name": "제천여고",
+          "jersey": 7,
+          "name_raw": "조희주"
+        }
+      ],
+      "jersey_consistent": true
+    }
+  ],
+  "identity_rules": {
+    "team_match": "팀명 별칭 → team_registry의 표준 team_id로 정규화",
+    "player_match": "(정규화 team_id + 이름) 우선, 등번호는 보조. 불확실 시 분리(미링크).",
+    "name_aliases": [
+      {
+        "team_id": "team_cheonan",
+        "from": "송민지",
+        "to": "송인지"
+      }
+    ]
+  }
+}
