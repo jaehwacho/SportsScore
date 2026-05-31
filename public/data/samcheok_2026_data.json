@@ -20,8 +20,24 @@
   },
   "standings": [
     {
-      "rank": 0,
-      "team": "2.0",
+      "rank": 1,
+      "team": "천안청수",
+      "matches": 4,
+      "win": 4,
+      "loss": 0,
+      "set_win": 12,
+      "set_loss": 0,
+      "points_for": 303,
+      "points_against": 219,
+      "pf_per_game": 75.75,
+      "pa_per_game": 54.75,
+      "pf_per_set": 25.25,
+      "pa_per_set": 18.25,
+      "result": "우승"
+    },
+    {
+      "rank": 2,
+      "team": "한봄고",
       "matches": 2,
       "win": 1,
       "loss": 1,
@@ -36,8 +52,8 @@
       "result": ""
     },
     {
-      "rank": 0,
-      "team": "3.0",
+      "rank": 3,
+      "team": "강릉여고",
       "matches": 4,
       "win": 2,
       "loss": 2,
@@ -52,8 +68,8 @@
       "result": ""
     },
     {
-      "rank": 0,
-      "team": "4.0",
+      "rank": 4,
+      "team": "경남여고",
       "matches": 5,
       "win": 3,
       "loss": 2,
@@ -68,8 +84,8 @@
       "result": "준우승"
     },
     {
-      "rank": 0,
-      "team": "5.0",
+      "rank": 5,
+      "team": "광주체고",
       "matches": 3,
       "win": 0,
       "loss": 3,
@@ -84,8 +100,8 @@
       "result": ""
     },
     {
-      "rank": 0,
-      "team": "6.0",
+      "rank": 6,
+      "team": "경일고",
       "matches": 3,
       "win": 2,
       "loss": 1,
@@ -100,8 +116,8 @@
       "result": ""
     },
     {
-      "rank": 0,
-      "team": "7.0",
+      "rank": 7,
+      "team": "제천여고",
       "matches": 3,
       "win": 0,
       "loss": 3,

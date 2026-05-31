@@ -21,7 +21,13 @@
       "Bash(git commit -m 'feat: 멀티 대회 지원 추가 \\(단양 + 삼척\\) *)",
       "Bash(git commit -m 'refactor: 대회 선택 UI 개선 *)",
       "Bash(awk '{print $NF}')",
-      "Bash(git commit -m 'docs: README 업데이트 및 프로젝트 파일 정리 *)"
+      "Bash(git commit -m 'docs: README 업데이트 및 프로젝트 파일 정리 *)",
+      "Bash(python3)",
+      "Bash(pip3 install *)",
+      "Bash(git commit -m 'data: 엑셀 데이터로 선수/팀 정보 업데이트 *)",
+      "Bash(git commit -m 'feat: 팀 순위 공동 순위 시스템 적용 *)",
+      "Bash(git commit -m 'feat: 통합 대회 데이터 추가 *)",
+      "Bash(git commit -m 'feat: 통합 대회 팀 정규화 & 대진표 비활성화 *)"
     ]
   }
 }

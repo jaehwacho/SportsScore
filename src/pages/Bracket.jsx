@@ -29,6 +29,25 @@ export default function Bracket({ data }) {
   const navigate = useNavigate()
   const { matches, tournament } = data
 
+  // 통합 대회인 경우 비활성화
+  if (tournament.id === 'integrated_2026') {
+    return (
+      <div className="page fade-up">
+        <div className="page-head">
+          <div className="eyebrow">Tournament Bracket</div>
+          <h1 className="page-title">대진표</h1>
+          <p className="page-sub">통합 대회 미지원</p>
+        </div>
+        <div className="card" style={{ padding: '40px', textAlign: 'center', minHeight: '300px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+          <p style={{ fontSize: '16px', color: 'var(--text-mute)', lineHeight: '1.6' }}>
+            통합 데이터에서는 대진표를 지원하지 않습니다.<br />
+            개별 대회를 선택하여 대진표를 확인해주세요.
+          </p>
+        </div>
+      </div>
+    )
+  }
+
   // 데이터에 실제로 있는 라운드만 추출
   const availableRounds = ROUND_ORDER.filter(round =>
     matches.some(m => m.round === round)
