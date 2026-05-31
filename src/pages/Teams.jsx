@@ -6,9 +6,23 @@ export default function Teams({ data }) {
   const [sort, setSort] = useState({ key: 'rank', dir: 1 })
 
   const rows = useMemo(() => {
-    const r = [...standings]
+    // result 기반 표시 순위 (공동 순위 처리)
+    const resultRank = {
+      '우승': 1,
+      '준우승': 2,
+      '4강': 3,   // 공동 3위
+      '6강': 5,   // 공동 5위
+      '예선': 7   // 예선 이하
+    }
+
+    const r = [...standings].map(team => ({
+      ...team,
+      displayRank: resultRank[team.result] || 7
+    }))
+
     r.sort((a, b) => {
-      const av = a[sort.key], bv = b[sort.key]
+      const sortKey = sort.key === 'rank' ? 'displayRank' : sort.key
+      const av = a[sortKey], bv = b[sortKey]
       return (av < bv ? -1 : av > bv ? 1 : 0) * sort.dir
     })
     return r
@@ -53,8 +67,8 @@ export default function Teams({ data }) {
               return (
                 <tr key={s.team}>
                   <td>
-                    <div className={'st-rank' + (s.rank <= 3 ? ' top' : '')}>
-                      <span className="r">{s.rank}</span>{medal(s.rank) && <span>{medal(s.rank)}</span>}
+                    <div className={'st-rank' + (s.displayRank <= 3 ? ' top' : '')}>
+                      <span className="r">{s.displayRank}</span>{medal(s.displayRank) && <span>{medal(s.displayRank)}</span>}
                     </div>
                   </td>
                   <td className="st-team"><span className="tn">{s.team}</span></td>
@@ -76,9 +90,9 @@ export default function Teams({ data }) {
       <div className="team-cards">
         {rows.map(s => (
           <div className="card team-card" key={s.team}>
-            <div className={'tc-top' + (s.rank <= 3 ? ' top' : '')}>
-              <span className="tc-rank">{s.rank}</span>
-              <span className="tc-name">{s.team}{medal(s.rank) && ' ' + medal(s.rank)}</span>
+            <div className={'tc-top' + (s.displayRank <= 3 ? ' top' : '')}>
+              <span className="tc-rank">{s.displayRank}</span>
+              <span className="tc-name">{s.team}{medal(s.displayRank) && ' ' + medal(s.displayRank)}</span>
               <span className={'st-result res-' + s.result}>{s.result}</span>
             </div>
             <div className="tc-stats">
