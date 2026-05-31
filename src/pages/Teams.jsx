@@ -17,7 +17,7 @@ export default function Teams({ data }) {
 
     const r = [...standings].map(team => ({
       ...team,
-      displayRank: resultRank[team.result] || 7
+      displayRank: team.result === '통합' ? team.rank : (resultRank[team.result] || 7)
     }))
 
     r.sort((a, b) => {
