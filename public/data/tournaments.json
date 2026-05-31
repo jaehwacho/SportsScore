@@ -2,8 +2,20 @@
   "schema_version": "1.0",
   "description": "한국중고배구 여고부 대회 통합 인덱스",
   "data_notice": "한국중고배구연맹의 경기 데이터는 연맹의 자산으로, 연맹의 서면 허락 없이 복제·유통·가공·배포 등 일체 행위를 할 수 없습니다.",
-  "default_tournament": "samcheok_2026",
+  "default_tournament": "integrated_2026",
   "tournaments": [
+    {
+      "id": "integrated_2026",
+      "name": "2026 여고부 통합 (단양 + 삼척)",
+      "division": "여고부",
+      "date_start": "2026-03-13",
+      "date_end": "2026-04-13",
+      "team_count": 14,
+      "match_count": 26,
+      "champion": "통합 순위 참고",
+      "runner_up": "통합 순위 참고",
+      "file": "integrated_2026_data.json"
+    },
     {
       "id": "danyang_2026",
       "name": "2026 춘계중고배구연맹전 단양대회",
