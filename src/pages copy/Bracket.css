@@ -1,0 +1,41 @@
+.bracket-wrap { overflow-x: auto; padding-bottom: 8px; }
+.bracket {
+  display: grid; grid-template-columns: repeat(3, minmax(190px, 1fr)) minmax(160px, 0.8fr);
+  gap: 28px; min-width: 760px; align-items: stretch;
+}
+.round-col { display: flex; flex-direction: column; }
+.round-col .rc-head {
+  font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+  letter-spacing: .1em; font-size: 12px; color: var(--text-mute); margin-bottom: 14px; text-align: center;
+}
+.round-col .matches { display: flex; flex-direction: column; justify-content: space-around; flex: 1; gap: 16px; }
+.bx {
+  background: var(--surface); border: 1px solid var(--border-soft); border-radius: 12px;
+  overflow: hidden; cursor: pointer; transition: border-color .15s var(--ease), transform .15s;
+}
+.bx:hover { border-color: color-mix(in oklab, var(--accent) 50%, var(--border)); transform: translateY(-1px); }
+.bx .bx-team {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 11px 14px; font-size: 14px; font-weight: 600; color: var(--text-dim);
+}
+.bx .bx-team + .bx-team { border-top: 1px solid var(--border-soft); }
+.bx .bx-team.winner { color: var(--text); font-weight: 800; }
+.bx .bx-team.winner .s { color: var(--accent); }
+.bx .bx-team .s { font-family: var(--font-display); font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; }
+.bx.champion-box { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), 0 16px 40px -22px color-mix(in oklab, var(--gold) 60%, transparent); }
+.champ-final {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  gap: 10px; padding: 24px 16px; border-radius: 16px; margin: auto 0;
+  background: radial-gradient(120% 120% at 50% 0%, color-mix(in oklab, var(--gold) 20%, transparent), transparent 60%), var(--surface);
+  border: 1px solid color-mix(in oklab, var(--gold) 50%, var(--border));
+}
+.champ-final .cup { font-size: 40px; }
+.champ-final .lbl { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; color: var(--accent); }
+.champ-final .nm { font-family: var(--font-display); font-weight: 800; font-size: 26px; color: var(--text); letter-spacing: -0.02em; }
+
+@media (max-width: 720px) {
+  .bracket-wrap { overflow-x: visible; }
+  .bracket { display: flex; flex-direction: column; min-width: 0; gap: 22px; }
+  .round-col .matches { gap: 10px; }
+  .round-col .rc-head { text-align: left; }
+}

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(node verify.js)",
+      "Bash(npx playwright *)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit: SportsScore 배구 대회 결과 웹사이트 *)",
+      "Bash(gh repo *)",
+      "Bash(vercel --prod --confirm)",
+      "Bash(vercel --prod --yes)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(git commit -m 'design: 화이트 테마 + 오렌지/코랄 포인트 컬러로 전체 디자인 리포팅 *)",
+      "Bash(git push *)",
+      "Bash(command -v gh)",
+      "Bash(python3 -c ' *)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(git commit -m 'feat: 멀티 대회 지원 추가 \\(단양 + 삼척\\) *)",
+      "Bash(git commit -m 'refactor: 대회 선택 UI 개선 *)",
+      "Bash(awk '{print $NF}')",
+      "Bash(git commit -m 'docs: README 업데이트 및 프로젝트 파일 정리 *)",
+      "Bash(python3)",
+      "Bash(pip3 install *)",
+      "Bash(git commit -m 'data: 엑셀 데이터로 선수/팀 정보 업데이트 *)",
+      "Bash(git commit -m 'feat: 팀 순위 공동 순위 시스템 적용 *)",
+      "Bash(git commit -m 'feat: 통합 대회 데이터 추가 *)",
+      "Bash(git commit -m 'feat: 통합 대회 팀 정규화 & 대진표 비활성화 *)",
+      "Bash(git commit -m 'fix: 통합 대회 팀순위 rank 표시 오류 *)"
+    ]
+  }
+}

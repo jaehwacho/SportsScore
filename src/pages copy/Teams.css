@@ -1,0 +1,48 @@
+.table-card { overflow: hidden; }
+.standings { width: 100%; border-collapse: collapse; }
+.standings th {
+  text-align: right; font-size: 11.5px; font-weight: 700; color: var(--text-mute);
+  letter-spacing: .03em; padding: 14px 12px; border-bottom: 1px solid var(--border);
+  text-transform: uppercase; white-space: nowrap; cursor: pointer; user-select: none;
+}
+.standings th:first-child, .standings th.lname { text-align: left; }
+.standings th .arr { color: var(--accent); margin-left: 3px; font-size: 10px; }
+.standings td { padding: 14px 12px; text-align: right; font-variant-numeric: tabular-nums; border-bottom: 1px solid var(--border-soft); font-size: 14.5px; }
+.standings tr:last-child td { border-bottom: none; }
+.standings tbody tr { transition: background .12s; }
+.standings tbody tr:hover { background: var(--surface-2); }
+.st-rank { display: flex; align-items: center; gap: 9px; }
+.st-rank .r { font-family: var(--font-display); font-weight: 800; font-size: 18px; width: 26px; color: var(--text-mute); }
+.st-rank.top .r { color: var(--accent); }
+.st-team { text-align: left !important; }
+.st-team .tn { font-weight: 700; color: var(--text); font-size: 15px; }
+.st-result { display: inline-flex; align-items: center; height: 22px; padding: 0 9px; border-radius: 6px; font-size: 11.5px; font-weight: 700; }
+.res-우승 { background: var(--accent); color: var(--on-accent); }
+.res-준우승 { background: color-mix(in oklab, var(--silver) 26%, transparent); color: var(--text); }
+.res-4강 { background: var(--surface-2); color: var(--text-dim); border: 1px solid var(--border-soft); }
+.res-6강 { background: var(--surface-2); color: var(--text-mute); }
+.res-예선 { color: var(--text-mute); }
+.wl b { font-family: var(--font-display); font-weight: 800; }
+.wl .w { color: var(--win); }
+.wl .l { color: var(--text-mute); }
+.diff.pos { color: var(--win); }
+.diff.neg { color: var(--text-mute); }
+
+/* 모바일 카드 */
+.team-cards { display: none; flex-direction: column; gap: 10px; }
+.team-card { padding: 14px 16px; }
+.tc-top { display: flex; align-items: center; gap: 12px; }
+.tc-rank { font-family: var(--font-display); font-weight: 800; font-size: 24px; width: 30px; color: var(--text-mute); }
+.tc-top.top .tc-rank { color: var(--accent); }
+.tc-name { font-weight: 700; font-size: 16px; color: var(--text); flex: 1; }
+.tc-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+.tc-stats .c { text-align: center; }
+.tc-stats .c .v { font-family: var(--font-display); font-weight: 800; font-size: 16px; color: var(--text); }
+.tc-stats .c .v.win { color: var(--win); }
+.tc-stats .c .v .su { color: var(--text-mute); font-size: 13px; }
+.tc-stats .c .k { font-size: 10.5px; color: var(--text-mute); margin-top: 2px; font-weight: 600; }
+
+@media (max-width: 720px) {
+  .table-card { display: none; }
+  .team-cards { display: flex; }
+}

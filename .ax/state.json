@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "step": "free",
+  "plan": {
+    "filePath": "AX_PROJECT_PLAN.md",
+    "completedAt": null
+  },
+  "design": {
+    "candidates": [],
+    "candidatesSource": "claude-suggested",
+    "selected": null,
+    "filePath": "AX_STUDIO_DESIGN.md",
+    "completedAt": null
+  },
+  "work": {
+    "startedAt": null
+  },
+  "history": [
+    {
+      "from": null,
+      "to": "free",
+      "at": "2026-06-01T02:24:51.924Z"
+    }
+  ]
+}

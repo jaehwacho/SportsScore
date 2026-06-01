@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+}
+
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-mute);
+  background: var(--bg);
+}
+.error { color: var(--accent); }
