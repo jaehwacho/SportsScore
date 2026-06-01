@@ -334,7 +334,7 @@
       "date": "2026-03-15",
       "day": "일",
       "round": "예선",
-      "team_a": "천안청수",
+      "team_a": "천안청수고",
       "team_b": "강릉여고",
       "score_a": 3,
       "score_b": 1,
@@ -390,7 +390,7 @@
       "date": "2026-03-16",
       "day": "월",
       "round": "예선",
-      "team_a": "천안청수",
+      "team_a": "천안청수고",
       "team_b": "세화여고",
       "score_a": 3,
       "score_b": 0,
@@ -468,7 +468,7 @@
       "date": "2026-03-17",
       "day": "화",
       "round": "6강",
-      "team_a": "천안청수",
+      "team_a": "천안청수고",
       "team_b": "일신여상",
       "score_a": 3,
       "score_b": 1,
@@ -532,7 +532,7 @@
       "date": "2026-03-18",
       "day": "수",
       "round": "4강",
-      "team_a": "천안청수",
+      "team_a": "천안청수고",
       "team_b": "중앙여고",
       "score_a": 2,
       "score_b": 3,
@@ -2076,7 +2076,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 1,
       "name": "김아중",
       "grade": "3",
@@ -2101,7 +2101,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 2,
       "name": "김주원",
       "grade": "2",
@@ -2126,7 +2126,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 3,
       "name": "유채은",
       "grade": "2",
@@ -2151,7 +2151,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 6,
       "name": "박믿음",
       "grade": "1",
@@ -2176,7 +2176,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 7,
       "name": "김주솔",
       "grade": "3",
@@ -2201,7 +2201,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 8,
       "name": "김정윤",
       "grade": "1",
@@ -2226,7 +2226,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 9,
       "name": "송민지",
       "grade": "2",
@@ -2251,7 +2251,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 10,
       "name": "이은재",
       "grade": "3",
@@ -2276,7 +2276,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 11,
       "name": "이효담",
       "grade": "3",
@@ -2301,7 +2301,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 12,
       "name": "박예영",
       "grade": "1",
@@ -2326,7 +2326,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 13,
       "name": "여원",
       "grade": "2",
@@ -2351,7 +2351,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 14,
       "name": "김규연",
       "grade": "2",
@@ -2376,7 +2376,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 17,
       "name": "이윤서",
       "grade": "2",
@@ -3726,7 +3726,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 1,
       "name": "김아중",
       "grade": "3",
@@ -3751,7 +3751,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 2,
       "name": "김주원",
       "grade": "2",
@@ -3776,7 +3776,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 3,
       "name": "유채은",
       "grade": "2",
@@ -3801,7 +3801,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 6,
       "name": "박믿음",
       "grade": "1",
@@ -3826,7 +3826,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 7,
       "name": "김주솔",
       "grade": "3",
@@ -3851,7 +3851,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 8,
       "name": "김정윤",
       "grade": "1",
@@ -3876,7 +3876,7 @@
       "played": false
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 9,
       "name": "송민지",
       "grade": "2",
@@ -3901,7 +3901,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 10,
       "name": "이은재",
       "grade": "3",
@@ -3926,7 +3926,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 11,
       "name": "이효담",
       "grade": "3",
@@ -3951,7 +3951,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 12,
       "name": "박예영",
       "grade": "1",
@@ -3976,7 +3976,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 13,
       "name": "여원",
       "grade": "2",
@@ -4001,7 +4001,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 14,
       "name": "김규연",
       "grade": "2",
@@ -4026,7 +4026,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 17,
       "name": "이윤서",
       "grade": "2",
@@ -5751,7 +5751,7 @@
       "played": true
     },
     {
-      "team": "천안청수",
+      "team": "천안청수고",
       "jersey": 0,
       "name": "=COUNTIF($D$4:$D$84, D91)",
       "grade": "",
@@ -5904,31 +5904,6 @@
       "team": "제천여고",
       "jersey": 0,
       "name": "=COUNTIF($D$4:$D$84, D97)",
-      "grade": "",
-      "pos1": "",
-      "pos2": null,
-      "height": 0,
-      "weight": 0,
-      "matches": 0,
-      "sets": 0,
-      "kills": 0,
-      "total_attack": 0,
-      "hit_pct": null,
-      "blocks": 0,
-      "serve_aces": 0,
-      "total_points": 0,
-      "player_score": 0,
-      "rcv_att": 0,
-      "rcv_success": 0,
-      "rcv_rate": null,
-      "digs": 0,
-      "digs_per_set": null,
-      "played": false
-    },
-    {
-      "team": "소계",
-      "jersey": 0,
-      "name": "=SUM(E91:E97)",
       "grade": "",
       "pos1": "",
       "pos2": null,

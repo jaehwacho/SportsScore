@@ -2666,31 +2666,6 @@
       "digs": 0,
       "digs_per_set": null,
       "played": false
-    },
-    {
-      "team": "소계",
-      "jersey": 0,
-      "name": "=SUM(E91:E97)",
-      "grade": "",
-      "pos1": "",
-      "pos2": null,
-      "height": 0,
-      "weight": 0,
-      "matches": 0,
-      "sets": 0,
-      "kills": 0,
-      "total_attack": 0,
-      "hit_pct": null,
-      "blocks": 0,
-      "serve_aces": 0,
-      "total_points": 0,
-      "player_score": 0,
-      "rcv_att": 0,
-      "rcv_success": 0,
-      "rcv_rate": null,
-      "digs": 0,
-      "digs_per_set": null,
-      "played": false
     }
   ]
 }
